@@ -167,7 +167,7 @@ Technically authentication and signing are very similar, the difference is in th
 certificate) used. For authentication the hash to be signed should be generated randomly by
 the relying party service while for signing the hash is calculated from the content to be signed.
 
-![Figure 1. RP API sequence diagram.](images/RP_API_sequences_REST.png 'Figure 1. RP API seuqence diagram.')
+![Figure 1. RP API sequence diagram.](images/RP_API_sequences.png 'Figure 1. RP API seuqence diagram.')
 
 ### 2.2.1 REST interface patterns
 
@@ -795,7 +795,7 @@ tune the request parameters inside the bounds set by service operator.
 
 Example URL:
 
-- https://example.com/rp/v2/session/de305d54-75b4-431b-adb2-eb6b9e546016?timeoutMs=10000
+- <https://example.com/rp/v2/session/de305d54-75b4-431b-adb2-eb6b9e546016?timeoutMs=10000>
 
 #### 2.3.11.1 Preconditions
 
@@ -930,7 +930,7 @@ The VC value must be displayed to the user in the browser together with a messag
 the end user to verify the code matches with the one displayed on their mobile device. The
 user must not proceed if these don't match.
 
-[^1]: See https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html
+[^1]: See <https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html>
 
 #### 2.3.12.3 Verifying the authentication response
 
@@ -987,3 +987,5 @@ requested the session is cancelled with reason code `REQUIRED_INTERACTION_NOT_SU
 
 `displayText60`, `displayText200` - Text to display for authentication consent dialog on
 the mobile device. Limited to 60 and 200 characters respectively.
+
+![Figure 1. RP API sequence diagram.](images/tutis-id-system-context.png 'Figure 1. RP API seuqence diagram.')
