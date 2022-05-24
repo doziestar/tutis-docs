@@ -145,7 +145,7 @@ detailed API description is found in the section [2.3 Relying Party REST API ver
 The interface is to be used by all parties who wish to consume Tutis-ID services, i.e. ask
 end users to perform authentication and signing operations.
 
-The main Tutis-ID use case is of a relying party to start a transaction by calling the Smart-
+The main Tutis-ID use case is of a relying party to start a transaction by calling the Tutis-
 ID server RP API with the user's identifier and a hash when the user wishes to authenticate
 with the relying party's service or create a signature.
 
